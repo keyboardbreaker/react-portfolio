@@ -8,6 +8,7 @@
 * page-navigation
 
 ### To Do:
+* Fix route, though may mean creating a new repo keyboardbreaker.github.io to claim root.
 * Fix Navigation layout
 * Create Overlay Homepage image
 * Link Github Profile
