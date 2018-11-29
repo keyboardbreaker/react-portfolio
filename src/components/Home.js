@@ -1,6 +1,5 @@
 import React from "react";
 import MyFace from "../images/about.jpg";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
