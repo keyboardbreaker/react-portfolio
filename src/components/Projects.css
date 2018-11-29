@@ -1,0 +1,30 @@
+.Projects{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position:relative;
+  }
+
+  h1 a:visited{
+    color:  #61dafb;
+  }
+
+  span{
+      color: rgb(241, 62, 62)
+  }
+
+  .borderBox{
+    border: solid grey 1px;
+    /* position:absolute; */
+    width:60%;
+    text-align: center;
+  }
+
+  a img{
+      height: 40px;
+  }

@@ -6,10 +6,10 @@
 * homepage-design
 * about-page 
 * page-navigation
+* creating-projects-page
 
 ### To Do:
 * Fix route, though may mean creating a new repo keyboardbreaker.github.io to claim root.
-* Fix Navigation layout
+* Fix Navigation UIlayout
 * Create Overlay Homepage image
 * Link Github Profile
-* Create Projects Page
