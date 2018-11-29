@@ -1,16 +1,20 @@
-import React, { Component } from 'react';
-import './App.css';
-import MyFace from '../src/images/about.jpg';
+import React, { Component } from "react";
+import "./App.css";
+import { About } from "./components/About";
+import { Home } from "./components/Home";
+import { Error } from "./components/Error";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={MyFace} alt={"MyFace"} className="myface"/>
-          <h1>Welcome to my Portfolio!</h1>
-        </header>
-      </div>
+      <Router>
+        <Switch>
+          <Route path="/" component={Home} exact/>
+          <Route path="/about" component={About} />
+          <Route component={Error}/>
+        </Switch>
+      </Router>
     );
   }
 }
