@@ -9,3 +9,11 @@
     color: white;
     position:relative;
   }
+
+  a:visited{
+    color:  #61dafb;
+  }
+
+  span{
+    color: rgb(241, 62, 62)
+}
