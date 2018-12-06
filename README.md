@@ -13,3 +13,4 @@
 * Fix Navigation UIlayout
 * Create Overlay Homepage image
 * Link Github Profile
+* Change the browser tab title
