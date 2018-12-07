@@ -31,11 +31,12 @@
 .Navigation{
   background-color: #282c34;
   color:  #61dafb;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:space-evenly;
+  text-align: left;
+  left: 400px;
+}
+
+.Navigation NavLink{
+  display: block;
 }
 
 .Navigation a:visited{
@@ -44,5 +45,9 @@
 }
 .Navigation a:link {
   color: #61dafb;
+}
+
+.Navigation a:hover{
+  color: white;
 }
 
