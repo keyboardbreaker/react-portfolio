@@ -7,9 +7,9 @@ class Navigation extends React.Component{
     render() {
         return (
             <div className="Navigation">
-                <NavLink to="/">1. <span>Stare</span> into his eyes.</NavLink><br/>
-                <NavLink to="/Projects">2. <i>"You're a Developer right? <br/>What have you <span>work</span>ed on recently?"</i></NavLink><br/>
-                <NavLink to="/About">3. <i>"Tell me a bit <span>about</span> yourself?"</i></NavLink>
+                <NavLink to="/#">1. <span>Stare</span> into his eyes.</NavLink><br/>
+                <NavLink to="/Projects">2. <i>"You're a <span>developer</span> right?"</i></NavLink><br/>
+                <NavLink to="/About">3. <i>"Tell me <span>about</span> yourself?"</i></NavLink>
             </div>
         );
     }
