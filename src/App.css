@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -12,42 +12,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
   position:relative;
-}
+} */
 
 .myface{
-  position: absolute;
-  height: 30%;
+  position: relative;
+  height: 150px;
 }
 
-.App-header h1{
+/* .App-header h1{
   position: absolute;
   bottom: 20%;
-}
+} */
 
 .App-link {
   color: #61dafb;
-}
-
-.Navigation{
-  background-color: #282c34;
-  color:  #61dafb;
-  text-align: left;
-  left: 400px;
-}
-
-.Navigation NavLink{
-  display: block;
-}
-
-.Navigation a:visited{
-  background-color: #282c34;
-  color:  #61dafb;
-}
-.Navigation a:link {
-  color: #61dafb;
-}
-
-.Navigation a:hover{
-  color: white;
 }
 

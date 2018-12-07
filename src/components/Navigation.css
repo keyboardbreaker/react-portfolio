@@ -1,0 +1,23 @@
+.Navigation{
+    background-color: #282c34;
+    color:  #61dafb;
+    text-align: left;
+    left: 400px;
+  }
+  
+  .Navigation NavLink{
+    display: block;
+  }
+  
+  .Navigation a:visited{
+    background-color: #282c34;
+    color:  #61dafb;
+  }
+  .Navigation a:link {
+    color: #61dafb;
+  }
+  
+  .Navigation a:hover{
+    color: white;
+  }
+  
