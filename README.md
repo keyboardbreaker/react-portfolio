@@ -14,3 +14,4 @@
 * Create Overlay Homepage image
 * Link Github Profile
 * Change the browser tab title
+* Set timeout on choose navigation item
