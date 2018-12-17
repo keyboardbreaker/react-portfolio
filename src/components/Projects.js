@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { NavLink } from "react-router-dom";
+import "./Navigation.css"
 
 class Projects extends React.Component{
     render() {
@@ -9,7 +10,7 @@ class Projects extends React.Component{
                 <h1><i>Well I've worked on:</i></h1>
                 <div className='borderBox'> 
                     <h1><i class="fab fa-github" aria-hidden="true"></i><span>COOK</span> WITH <a 
-                        href="https://github.com/keyboardbreaker/react-portfolio" 
+                        href="https://github.com/keyboardbreaker/seasonal-cuisine" 
                         alt="">SEASONAL CUISINE</a></h1>
                 </div> 
                 <div className='borderBox'> 

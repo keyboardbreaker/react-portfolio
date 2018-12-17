@@ -4,7 +4,6 @@ import { About } from "./components/About";
 import { Home } from "./components/Home";
 import { Projects } from "./components/Projects";
 import { Error } from "./components/Error";
-import { Navigation } from "./components/Navigation";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {

@@ -7,6 +7,7 @@
 * about-page 
 * page-navigation
 * creating-projects-page
+* game-logic-home
 
 ### To Do:
 * Fix route, though may mean creating a new repo keyboardbreaker.github.io to claim root.
@@ -14,4 +15,4 @@
 * Create Overlay Homepage image
 * Link Github Profile
 * Change the browser tab title
-* Set timeout on choose navigation item
+* Set timeout on choose navigation item - user tested, maybe take out
