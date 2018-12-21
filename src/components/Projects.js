@@ -9,21 +9,21 @@ class Projects extends React.Component{
             <div className="Projects">
                 <h1><i>Well I've worked on:</i></h1>
                 <div className='borderBox'> 
-                    <h1><i class="fab fa-github" aria-hidden="true"></i><span>COOK</span> WITH <a 
+                    <h1><a 
                         href="https://github.com/keyboardbreaker/seasonal-cuisine" 
                         alt="">SEASONAL CUISINE</a></h1>
                 </div> 
                 <div className='borderBox'> 
-                    <h1>KODIRI IS <span>LOVE</span>, <a 
+                    <h1><a 
                         href="https://github.com/keyboardbreaker/kodflix" 
-                        alt="">KODFLIX IS LIFE</a></h1>
+                        alt="">LATESTFLIX</a></h1>
                 </div>
                 <div className='borderBox'> 
-                    <h1><i class="fab fa-github" aria-hidden="true"></i>MY <a 
+                    <h1><a 
                         href="https://github.com/keyboardbreaker/react-portfolio" 
                         alt="">PORTFOLIO</a></h1>
                 </div> 
-                <h1><NavLink to="/#">"Wow! Please tell me <span>more."</span></NavLink><br/></h1>
+                <h1><NavLink to="/#">Return <span>Home</span>?</NavLink><br/></h1>
             </div>
         );
     }
