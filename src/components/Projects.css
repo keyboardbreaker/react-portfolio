@@ -42,3 +42,22 @@
     height: 100%;
     width: 100%;
   }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #282c34;
+  }
+  
+  .content {
+    width: 85%;
+    height: 100%;
+    background-clip: padding-box;
+    margin: 50px auto;
+    border-radius: 25px;
+    border: 10px solid whitesmoke;
+    box-shadow: 0 0 5px #333;
+  }
+  html {
+    background-color: #282c34;
+  }

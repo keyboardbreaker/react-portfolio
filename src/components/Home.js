@@ -15,8 +15,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <div className="App">
-          <div className="home">
+        <div className="App wrapper">
+          <div className="home content">
             <h1>You've Bumped into this guy</h1>
             <img src={MyFace} alt={"MyFace"} className="myface" />
             <p>Something about him is <span>alluring</span>, you approach him.</p>

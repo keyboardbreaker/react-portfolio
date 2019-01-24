@@ -5,9 +5,11 @@ import "./About.css";
 class About extends React.Component{
     render() {
         return (
-            <div className="About">
+            <div className="About wrapper">
+                <div className="content home ">
                 <p>DM me with <span>jobs</span>: yujinost@gmail.com</p>
                 <h1><NavLink to="/#">Return <span>Home</span>?</NavLink><br/></h1>
+                </div>
             </div>
         );
     }
