@@ -9,3 +9,12 @@
     color: white;
     position:relative;
   }
+
+  span svg{
+    fill: white;
+    padding-left: 0.5em;
+    border: #61dafb solid 2px;
+    padding-right: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 25px;
+}
