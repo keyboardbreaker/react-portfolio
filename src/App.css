@@ -17,6 +17,7 @@
 .myface{
   position: relative;
   height: 150px;
+  border-radius: 25px;
 }
 
 /* .App-header h1{
