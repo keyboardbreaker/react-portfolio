@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/seasonal-cuisine.55ae176a.png"
   },
   {
-    "revision": "985d91ecba2c63755213dc4c9b20f50f",
-    "url": "/react-portfolio/static/media/portfolio.985d91ec.png"
+    "revision": "f0f708d8ce4a2b6fcfaa1bbc5e0e5231",
+    "url": "/react-portfolio/static/media/portfolio.f0f708d8.png"
   },
   {
     "revision": "fa0cf06d199ac5f0300952fe40ec382f",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/js/runtime~main.f8926043.js"
   },
   {
-    "revision": "f23c99724c0384dcd96b",
-    "url": "/react-portfolio/static/js/main.f23c9972.chunk.js"
+    "revision": "8b1460009d693562e495",
+    "url": "/react-portfolio/static/js/main.8b146000.chunk.js"
   },
   {
     "revision": "9eb418397f5fca1e5215",
     "url": "/react-portfolio/static/js/1.9eb41839.chunk.js"
   },
   {
-    "revision": "f23c99724c0384dcd96b",
+    "revision": "8b1460009d693562e495",
     "url": "/react-portfolio/static/css/main.4366b7db.chunk.css"
   },
   {
-    "revision": "e35c4a69dd6e8a57f0c6de9224fa7789",
+    "revision": "b7fec0c2b3f4ae9a9863c4d94916d244",
     "url": "/react-portfolio/index.html"
   }
 ];
