@@ -10,6 +10,11 @@
     position:relative;
 }
 
+.information {
+  max-width: 600px;
+  padding: 12px;
+}
+
 a:visited{
   color:  #61dafb;
 }
