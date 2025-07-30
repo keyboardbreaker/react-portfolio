@@ -10,19 +10,17 @@ import {
   Route,
 } from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </Router>
-    );
-  }
+function App() {  
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

@@ -6,8 +6,7 @@ import seasonal from "../images/seasonal-cuisine.png";
 import portfolio from "../images/portfolio.png";
 import "./Navigation.css";
 
-class Projects extends React.Component {
-  render() {
+function Projects() {
     return (
       <div className="Projects wrapper">
         <div className="home content">
@@ -71,7 +70,6 @@ class Projects extends React.Component {
         </div>
       </div>
     );
-  }
 }
 
 export { Projects };
