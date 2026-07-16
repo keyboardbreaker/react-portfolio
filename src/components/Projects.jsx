@@ -3,6 +3,7 @@ import "./Projects.css";
 import { NavLink } from "react-router-dom";
 import latestFlix from "../images/latest-flix.png";
 import seasonal from "../images/seasonal-cuisine.png";
+import fridge from "../images/fridge-inventory.png";
 import portfolio from "../images/portfolio.png";
 import "./Navigation.css";
 
@@ -19,6 +20,24 @@ function Projects() {
           <h4>
             <i>and I've worked on:</i>
           </h4>
+          
+          <div className="borderBox">
+            <h1>
+              <a
+                href="https://github.com/keyboardbreaker/fridge-inventory"
+                alt=""
+              >
+                Fridge Inventory
+              </a>
+            </h1>
+            <a
+                href="https://github.com/keyboardbreaker/fridge-inventory"
+                alt=""
+              >
+              <img src={fridge} alt={"proj0"} className="projects" />
+            </a>
+
+          </div>
           <div className="borderBox">
             <h1>
               <a
@@ -33,7 +52,7 @@ function Projects() {
                 alt=""
               >
               <img src={seasonal} alt={"proj1"} className="projects" />
-              </a>
+            </a>
 
           </div>
           <div className="borderBox">
